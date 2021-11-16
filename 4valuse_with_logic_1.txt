@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{   
+    //ALI
+    int a, b, c, d;
+    cout << "Please enter the 4 valuse\n";
+    cin >> a >> b >> c >> d;
+    int max = a;
+    int max1 = c;
+
+    if (max > b)
+        max = a;
+    else
+        max = b;
+
+    if (max1 > d)
+        max1 = c;
+    else
+        max1 = d;
+    if (max > max1)
+        cout << "The greater value is = "<< max <<endl ;
+    else
+        cout << "The greater value is = "<< max1<<endl;
+
+	//logic 1
+}
+
